@@ -20,6 +20,7 @@ way to fit your requirements.
 .menu li a#php b.b_top,      .menu li span#php b.b_top      {background:transparent url(dd/icon_php.png) no-repeat center center;}
 .menu li a#vermeer b.b_top,  .menu li span#vermeer b.b_top  {background:transparent url(dd/20_PearlSmall_16.gif) no-repeat center center;}
 .menu li a#research b.b_top, .menu li span#research b.b_top {background:transparent url(../../../images/dist/images/famfamfam/layers.png) no-repeat center center;}
+.menu li a#github b.b_top,   .menu li span#github b.b_top  {background:transparent url(../../../images/dist/images/smi/github-16x16.png) no-repeat center center;}
 .menu li a#sitemap b.b_top,  .menu li span#sitemap b.b_top  {background:transparent url(../../../images/dist/images/famfamfam/sitemap_color.png) no-repeat center center;}
 .menu li a#sbin b.b_top,     .menu li span#sbin b.b_top     {background:transparent url(../../../images/dist/images/famfamfam/layout_add.png) no-repeat center center;}
 
@@ -33,6 +34,7 @@ way to fit your requirements.
 .menu ul.sub b.php      {background:transparent url(dd/icon_php.png) no-repeat center center;}
 .menu ul.sub b.vermeer  {background:transparent url(dd/20_PearlSmall_16g.gif) no-repeat center center;}
 .menu ul.sub b.research {background:transparent url(../../../images/dist/images/famfamfam/layers.png) no-repeat center center;}
+.menu ul.sub b.github   {background:transparent url(../../../images/dist/images/smi/github-16x16.png) no-repeat center center;}
 .menu ul.sub b.sbin     {background:transparent url(../../../images/dist/images/famfamfam/layout_link.png) no-repeat center center;}
 
 /* Left of each drop link, images for links with sub-menu */
