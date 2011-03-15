@@ -1,0 +1,15 @@
+div.table-tree {font-family: arial, helvetica, sans-serif;}
+
+div.table-tree table {border-collapse: collapse;margin-bottom: 3em;font-size: 70%;line-height: 1.1;}
+ 
+div.table-tree tr:hover, div.table-tree td.start:hover, div.table-tree td.end:hover {background: #FF9;}
+div.table-tree th, div.table-tree td {padding: .3em .5em;}
+div.table-tree th {font-weight: normal;text-align: left;background: url(_images/table-tree/arrow.gif) no-repeat 2px 50%;padding-left: 15px;}
+
+div.table-tree th.name { width: 12em; }
+div.table-tree th.location { width: 12em; }
+div.table-tree th.color { width: 10em; }
+ 
+div.table-tree thead th {background: #c6ceda;border-color: #fff #fff #888 #fff;border-style: solid;border-width: 1px 1px 2px 1px;padding-left: .5em;}
+div.table-tree tbody th.start {background: url(_images/table-tree/dots.gif) 18px 54% no-repeat;padding-left: 26px;}
+div.table-tree tbody th.end {background: url(_images/table-tree/dots2.gif) 18px 54% no-repeat;padding-left: 26px;}

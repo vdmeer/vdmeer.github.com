@@ -1,0 +1,14 @@
+#logo {height: 30px; padding: 0 0; background: #003261; text-align: center;}
+#logo p {color: white; padding: 8px; font-size: 8pt; margin: 0;}
+#logo img {border:0px; position: absolute; top: 0px; right: 0px;}
+
+#menu-nav {width: 100%; color: white; height: 25px; background: url(../menu/dd/navigation.gif);}
+#menu-nav a, #menu-nav p {color: white; font-size: 8pt; color: #efefef; margin: 0;}
+#menu-nav a:hover {text-decoration: none; color: #efefef;}
+#menu-nav p {padding: 2px 0 0 18px; color: #efefef;}
+#menu-nav span.lang {position: absolute; right: 8px;}
+
+#gall-nav {border-right: 1px solid black; border-top: 1px solid white; border-bottom: 1px solid black; border-left: 1px solid white; background: #eaeaea; padding: 1px 10px 3px 10px; text-align: center;}
+#gall-nav li {display:inline; margin:0; padding:0; height:auto;}
+#gall-nav li.text {color: #979797;}
+#gall-nav li.descr {color: black; font-weight:bold;}

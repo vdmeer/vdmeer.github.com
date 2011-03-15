@@ -1,0 +1,15 @@
+div.table-teaching {margin-left:auto;margin-right:auto;padding:4px;text-align:center;padding-bottom:30px;}
+
+div.table-teaching table {width:100% !important; border-spacing:4px;padding-bottom:30px;}
+div.table-teaching table * td, div.table-teaching table * th {padding:6px;}
+
+div.table-teaching legend {font-weight:bold;font-size:12pt;text-align:right;border:1px solid green; background: #bbbbbb;}
+
+div.table-teaching thead tr {background: #bbbbbb;font-weight:bold;}
+
+div.table-teaching tbody th {background: #dddddd; text-align:left;font-weight:bold;}
+div.table-teaching tbody td {text-align: left;background:#DEB887;}
+div.table-teaching tbody td.bottom {text-align: left;background:#ffffff;text-align:right;}
+div.table-teaching tbody a {text-align:left;font-weight:bold;}
+
+div.table-teaching tbody p {padding:00; margin:0 0;}
