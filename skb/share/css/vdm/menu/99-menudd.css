@@ -12,33 +12,39 @@ way to fit your requirements.
 
 /* the images */
 /* TOP Links and Spans */
+/*
 .menu li a#home b.b_top,     .menu li span#home b.b_top     {background:transparent url(../../../images/dist/images/famfamfam/house.png) no-repeat center center;}
-.menu li a#vdm b.b_top,      .menu li span#vdm b.b_top      {background:transparent url(dd/sm-blue-16.gif) no-repeat center center;}
-.menu li a#publ b.b_top,     .menu li span#publ b.b_top     {background:transparent url(../../../images/dist/images/famfamfam/report.png) no-repeat center center;}
+.menu li a#about b.b_top,    .menu li span#about b.b_top    {background:transparent url(../../../images/dist/images/famfamfam/folder_page.png) no-repeat center center;}
+.menu li a#research b.b_top, .menu li span#research b.b_top {background:transparent url(../../../images/dist/images/famfamfam/chart_curve.png) no-repeat center center;}
+.menu li a#teaching b.b_top, .menu li span#teaching b.b_top {background:transparent url(../../../images/dist/images/famfamfam/group_key.png) no-repeat center center;}
+.menu li a#devel b.b_top,    .menu li span#devel b.b_top    {background:transparent url(../../../images/dist/images/famfamfam/keyboard.png) no-repeat center center;}
 .menu li a#gallery b.b_top,  .menu li span#gallery b.b_top  {background:transparent url(../../../images/dist/images/famfamfam/images.png) no-repeat center center;}
-.menu li a#diary b.b_top,    .menu li span#diary b.b_top    {background:transparent url(../../../images/dist/images/famfamfam/layout_content.png) no-repeat center center;}
-.menu li a#php b.b_top,      .menu li span#php b.b_top      {background:transparent url(dd/icon_php.png) no-repeat center center;}
-.menu li a#vermeer b.b_top,  .menu li span#vermeer b.b_top  {background:transparent url(dd/20_PearlSmall_16.gif) no-repeat center center;}
-.menu li a#research b.b_top, .menu li span#research b.b_top {background:transparent url(../../../images/dist/images/famfamfam/layers.png) no-repeat center center;}
-.menu li a#github b.b_top,   .menu li span#github b.b_top  {background:transparent url(../../../images/dist/images/smi/github-16x16.png) no-repeat center center;}
 .menu li a#sitemap b.b_top,  .menu li span#sitemap b.b_top  {background:transparent url(../../../images/dist/images/famfamfam/sitemap_color.png) no-repeat center center;}
 .menu li a#sbin b.b_top,     .menu li span#sbin b.b_top     {background:transparent url(../../../images/dist/images/famfamfam/layout_add.png) no-repeat center center;}
+*/
 
 /* Left of each drop link, normal images */
 .menu ul.sub b          {display:block; float:left; background:transparent url(../../../images/dist/images/famfamfam/add.png) no-repeat center center; height:25px; width:25px;}
-.menu ul.sub b.vdm      {background:transparent url(../../../images/dist/images/famfamfam/report.png) no-repeat center center;}
+.menu ul.sub b.cv       {background:transparent url(../../../images/dist/images/famfamfam/report_user.png) no-repeat center center;}
 .menu ul.sub b.fotos    {background:transparent url(../../../images/dist/images/famfamfam/camera.png) no-repeat center center;}
 .menu ul.sub b.figures  {background:transparent url(../../../images/dist/images/famfamfam/vector.png) no-repeat center center;}
 .menu ul.sub b.pictures {background:transparent url(../../../images/dist/images/famfamfam/photo.png) no-repeat center center;}
 .menu ul.sub b.diary    {background:transparent url(../../../images/dist/images/famfamfam/layout_content.png) no-repeat center center;}
-.menu ul.sub b.php      {background:transparent url(dd/icon_php.png) no-repeat center center;}
 .menu ul.sub b.vermeer  {background:transparent url(dd/20_PearlSmall_16g.gif) no-repeat center center;}
 .menu ul.sub b.research {background:transparent url(../../../images/dist/images/famfamfam/layers.png) no-repeat center center;}
+.menu ul.sub b.teaching {background:transparent url(../../../images/dist/images/famfamfam/group_key.png) no-repeat center center;}
 .menu ul.sub b.github   {background:transparent url(../../../images/dist/images/smi/github-16x16.png) no-repeat center center;}
+.menu ul.sub b.linkedin {background:transparent url(../../../images/dist/images/smi/linkedin-16x16.png) no-repeat center center;}
+.menu ul.sub b.tumblr   {background:transparent url(../../../images/dist/images/smi/tumblr-16x16.png) no-repeat center center;}
+.menu ul.sub b.blogger  {background:transparent url(../../../images/dist/images/sni/blogger_16.png) no-repeat center center;}
+.menu ul.sub b.twitter  {background:transparent url(../../../images/dist/images/smi/twitter-16x16.png) no-repeat center center;}
+.menu ul.sub b.publ     {background:transparent url(../../../images/dist/images/famfamfam/book_open.png) no-repeat center center;}
+.menu ul.sub b.db       {background:transparent url(../../../images/dist/images/famfamfam/database.png) no-repeat center center;}
+.menu ul.sub b.projects {background:transparent url(../../../images/dist/images/famfamfam/report.png) no-repeat center center;}
 .menu ul.sub b.sbin     {background:transparent url(../../../images/dist/images/famfamfam/layout_link.png) no-repeat center center;}
 
 /* Left of each drop link, images for links with sub-menu */
-.menu ul.sub b.gen_vdm      {background:transparent url(../../../images/dist/images/famfamfam/report_add.png) no-repeat center center;}
+.menu ul.sub b.gen_publ     {background:transparent url(../../../images/dist/images/famfamfam/book_next.png) no-repeat center center;}
 .menu ul.sub b.gen_page_sub {background:transparent url(../../../images/dist/images/famfamfam/page_add.png) no-repeat center center;}
 .menu ul.sub b.gen_fotos    {background:transparent url(../../../images/dist/images/famfamfam/camera_add.png) no-repeat center center;}
 .menu ul.sub b.gen_pictures {background:transparent url(../../../images/dist/images/famfamfam/photo_add.png) no-repeat center center;}
@@ -49,8 +55,7 @@ way to fit your requirements.
 
 /* The menu styling */
 /* Remove the padding, margins and bullets from the lists */
-
-.menu, .menu ul {list-style-type:none; padding:0; margin:0; font-family:Calibri, Arial, sans-serif; font-size:12px;}
+.menu, .menu ul {list-style-type:none; padding:0; margin:0; font-family:Calibri, Arial, sans-serif; font-size:12pt;}
 
 /* Set up the size of the list items and float left to place inline */
 .menu li.top {display:block; float:left; position:relative;}
@@ -61,7 +66,7 @@ way to fit your requirements.
 /* Default link styling */
 .menu li.top a.top_link, .menu li.top span.top_link {display:block; float:left; height:30px; line-height:30px; text-decoration:none; color:#fff; background: url(dd/image_drop_1a.gif); padding:0;}
 .menu li.top a.top_link span.span_top, .menu li.top span.top_link span.span_top {display:block; float:left; height:30px; background: url(dd/image_drop_1a.gif) right top; padding:0 15px 0 0;}
-.menu li.top a.top_link b.b_top, .menu li.top span.top_link b.b_top {display:block; float:left; height:30px; width:26px;}
+.menu li.top a.top_link b.b_top, .menu li.top span.top_link b.b_top {display:block; float:left; height:30px; width:12px;}
 
 .menu li.top a.top_link span.drop, .menu li.top span.top_link span.drop {background: url(dd/image_drop_0a.gif) right top; padding:0 25px 0 0;}
 
