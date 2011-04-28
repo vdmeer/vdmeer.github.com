@@ -1,0 +1,33 @@
+div.table-cv {margin-left: auto; margin-right: auto; padding: 1px; text-align: center; width: 100%; border: 1px solid;}
+
+div.table-cv table {border-spacing:4px;}
+div.table-cv table * td, div.table-cv table * th {padding:6px;}
+
+div.table-cv legend {font-weight:bold;font-size:12pt;text-align:right;border:1px solid green; background: #bbbbbb;}
+
+div.table-cv thead tr {background: #bbbbbb;font-weight:bold;}
+
+div.table-cv tbody th {background: #dddddd; text-align:left;font-weight:bold;}
+div.table-cv tbody td {text-align: left;background:#DEB887;}
+div.table-cv tbody td.bottom {text-align: left;background:#ffffff;text-align:right;}
+div.table-cv tbody a {text-align:left;font-weight:bold;}
+
+div.table-cv tbody p {padding:00; margin:0 0;}
+
+
+
+
+/*
+div.table-gallery table {background: #B0C4DE; border-spacing: 0px; border-collapse: collapse;}
+div.table-gallery caption {width: 100%; text-align: left;}
+div.table-gallery thead {background: #ffa109;}
+div.table-gallery thead * {border-bottom: 1px outset; border-top: 1px outset; padding-left: 3px; padding-right: 3px;}
+div.table-gallery tfoot {background: #ffa109;}
+div.table-gallery tbody * th {background: #ffdca2; border-right: 1px solid #956500 !important; border-bottom: 1px solid #fff; padding: 6px; text-align: left;}
+div.table-gallery tbody * td {border: 0px none; border-bottom: 1px solid #ddd; text-align: left;}
+div.table-gallery tbody tr.odd {background: #F5DEB3;}
+div.table-gallery td:hover {background: #F5F5F5;}
+div.table-gallery th {background: #003261 !important; color: white !important; text-align: right !important;}
+div.table-gallery table ul, div.table-gallery table form * {padding:0;margin:0}
+div.table-gallery li {display:inline; background: url(../../dist/htmlpage/misc/nav_sep.gif) top right no-repeat; padding:0 5px; height:20px; line-height:21px; margin:0;}
+*/
