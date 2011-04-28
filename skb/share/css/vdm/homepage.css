@@ -1,0 +1,29 @@
+#hp-header {border-bottom:#999999 1px solid;}
+
+#hp-left   {float:left; width:40%;border-right:#999999 1px dotted; margin:-20px 0;}
+#hp-middle {margin-right:220px; margin-left:40%; padding:10px;border-right:#999999 1px dotted;padding-left:20px;margin-top:-20px;}
+#hp-right  {float:right; width:200px; padding-top:10px;}
+
+#hp-left, #hp-middle, #hp-right {padding-bottom:32767px; margin-bottom:-32767px;}
+
+#wrapper {overflow:hidden;}
+#hp-footer {clear:both;border-top:#999999 1px solid;}
+
+.content {padding:10px;}
+.content-hr {border-top:#999999 1px dashed;width:95%;margin: 0 auto;}
+.content-hr-solid {border-top:#999999 1px solid;width:100%;margin: 0 auto;}
+
+a.rss, p.rss {font-family: Arial;font-size: 8pt;}
+a.rss:link {text-decoration: none;font-weight: bold;}
+a.rss:hover {text-decoration: underline;}
+p.rss a.rss img {vertical-align:top; padding-bottom: 1px; margin-right: 5px; border:none;}
+p.rss {padding:3px 0 2px 0;border-top:#999999 1px dashed;width:95%;}
+
+h1 {font-size:28px; margin:0; padding:20px 0;}
+h3, h3.qoute {font-size:18px; margin:0; padding:8px 0;}
+h3.qoute {font-size:16px; color: #555555;font-style:italic;}
+p {font-size:12px; line-height:1.5em; margin:0; padding:5px 0;}
+#hp-footer p,
+#hp-header p {}
+#hp-footer a {}
+#hp-footer a:hover {text-decoration:none;}
